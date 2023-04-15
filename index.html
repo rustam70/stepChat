@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-ab.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleKat.css">
+    <link rel="stylesheet" href="styleAnt.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- <form action="" id="form">
+        <input type="text" name="" id="inp">
+        <input type="submit">        
+    </form> -->
+
+    <div class="wrapper-form-registr">
+        <div class="wrapper-form-reg-content">
+            <div class="cont-btns">
+                <button class="btn-login">LOGIN</button>
+                <p>/</p>
+                <button class="btn-auto">AUTORIZATION</button>
+            </div>
+            <div class="info-registr">In order to start using the program, you must log in. If you don't have an account, you need to register</div>
+            <div class="fomrs-registr">
+                <form action="#" id="formlogin">       
+                    <div class="form-login">
+                        <h1>Login</h1>
+                        <p>Please enter your account data </p>
+                    
+                        <label for="emaill"><b>Email</b></label>
+                        <input type="email" placeholder="Enter Email" name="emaill" required id="emaill">
+                    
+                        <label for="psww"><b>Password</b></label>
+                        <input type="password" name="psww" placeholder="Enter Password" required id="psww">                   
+                        <button id="log-btn">Login</button>                    
+                    </div>
+                    <div class="bad-login">This login does not exist.</div>
+                </form>
+                <form action="#" id="formcont">       
+                    <div class="form-cont">
+                        <h1>Register</h1>
+                        <p>Please fill in this form to create an account</p>
+                
+                        <label for="email"><b>Email</b></label>
+                        <input type="email" placeholder="Enter Email" name="email" required id="email">
+                
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" name="psw" placeholder="Enter Password" required id="psw"> 
+                
+                        <button id="reg-btn">Register</button>                
+                    </div>
+                    <div class="good-autorization passive">You are successfully logged in!</div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+
+<!--Галина-->
+    <div class="main-container none">
+
+    <div class="wrapper">
+        <div class="chats chat-background">
+            <div class="header-all-chats">
+                <div class="image-user"></div>
+                <div class="profile-basic">
+                    <span class="nickname">Email</span>
+                    <!-- <button class="profile-btn">Профиль</button> -->
+                    <div class="list-btns">
+                        <!-- <div class="users-list-btn"><img src="images/multiple-users-silhouette.png" alt=""></div> -->
+                        <div class="profile-user-btn"><img src="images/profile-user.png" alt=""></div>
+                        <div class="all-users"><img src="images/multiple-users-silhouette.png" alt=""></div>
+                        <div class="chats-list-btn"><img src="images/comment.png" alt=""></div>  
+                        <div class="settings"><img src="images/settings.png" alt="" class="settings-img"></div>
+                        <div class="exit-btn"><img src="images/logout.png" alt=""></div>              
+                    </div>
+                </div>                
+            </div>
+
+            <div class="search-users passive">
+                <input type="text" name="" id="nickname-users-search-input" placeholder="Enter user's email">
+                <div class="btn-search-in-input" id="btn-search-users"><img src="images/magnifier.png" alt=""></div>
+            </div>
+
+            <div class="search-chats">
+                <input type="text" name="" id="nickname-chats-search-input" placeholder="Enter user's email">
+                <div class="btn-search-in-input" id="btn-search-chats"><img src="images/magnifier.png" alt=""></div>
+            </div>
+
+            <div class="all-users-chats">
+                <div class="chats-content"></div>
+                <div class="all-users-content passive">
+                    <div class="all-users-content-double">
+                    </div>
+                    <div class="user-not-found passive">User is not found!</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="current-chat">
+            <div class="plug"></div>
+            <div class="new-chat chat-background">
+                <span class="new-chat-name">Chat name</span>
+                <div class="search">
+                    <div class="search-block">
+                        <input type="text" class="search-input">
+                        <div class="prev-message">&#9650;</div>
+                        <div class="next-message">&#9660;</div>
+                    </div>
+                    <img src="images/magnifier.png" alt="#" class="search-icon">
+                </div>
+            </div>
+            <div class="wrapper-chat">
+                <div class="chat">                
+                    <div class="main"></div>
+            
+                    <div class="plug-footer"></div>
+                    <div class="footer">
+                        <input type="text" name="input-message" id="input-message">
+                        <div class="emoji-wrapper">
+                            <img src="images/smile.png" alt="#" class="emoji-icon">
+                            <div class="emoji-pack hidden">
+                                <span class="emoji">&#128512;</span>                                
+                                <span class="emoji">&#128515;</span>
+                                <span class="emoji">&#128516;</span>
+                                <span class="emoji">&#128513;</span>
+                                <span class="emoji">&#128518;</span>
+                                <span class="emoji">&#128517;</span>
+                                <span class="emoji">&#129315;</span>
+                                <span class="emoji">&#128514;</span>
+                                <span class="emoji">&#128578;</span>
+                                <span class="emoji">&#128579;</span>
+                                <span class="emoji">&#128521;</span>
+                                <span class="emoji">&#128522;</span>
+                                <span class="emoji">&#128519;</span>
+                                <span class="emoji">&#129392;</span>
+                                <span class="emoji">&#128525;</span>
+                            </div>
+                        </div>
+                        <button class="send-btn">Отправить</button>
+                        <!-- <button class="test">TEST</button> -->
+                    </div>
+                </div>
+
+             
+            </div>
+
+        </div>
+        <!-- <div class="send">
+            <input type="text" name="" id="send-inp">
+            <button id="send">Send</button>                       
+        </div> -->
+    </div>
+
+    <div class="wrapper-profile passive">
+        <div class="profile-modal">
+
+        </div>
+    </div>
+
+
+    <div class="wrapper-colors-settings passive">
+        <div class="forms">
+            <div class="settings-title"><h3>General settings</h3><span class="close-settings-btn">x</span></div>
+            <div class="form-data">
+                <div class="data-colors background">
+                    <form action="" class="form">
+                        <h5>Background color</h5>
+                        <div class="inputs-color">
+                            <label for="red">R</label>
+                            <input type="range" name="red" id="red-theme" min="0" max="255">                    
+                        </div>
+                        <div class="inputs-color">
+                            <label for="green">G</label>
+                            <input type="range" name="green" id="green-theme" min="0" max="255"> 
+                        </div>
+                        <div class="inputs-color">
+                            <label for="blue">B</label>
+                            <input type="range" name="blue" id="blue-theme" min="0" max="255">
+                        </div>
+                        <div class="inputs-color">
+                            <label for="opacity">Opacity</label>
+                            <input type="range" name="opacity" id="opacity-theme" min="0" max="10">
+                        </div>
+                    </form>
+                    <!-- <div class="background-theme"></div>         -->
+                </div>   
+                <div class="data-colors fonts background">
+                    <form action="" class="form">
+                        <h5>Font color</h5>
+                        <div class="inputs-color">
+                            <label for="red">R</label>
+                            <input type="range" name="red" id="red-font" min="0" max="255">                    
+                        </div>
+                        <div class="inputs-color">
+                            <label for="green">G</label>
+                            <input type="range" name="green" id="green-font" min="0" max="255"> 
+                        </div>
+                        <div class="inputs-color">
+                            <label for="blue">B</label>
+                            <input type="range" name="blue" id="blue-font" min="0" max="255">
+                        </div>
+                        <div class="inputs-color">
+                            <label for="opacity">Opacity</label>
+                            <input type="range" name="opacity" id="opacity-font" min="0" max="10">
+                        </div>
+                    </form>
+                    <div class="any-text"> Any text</div>        
+                </div>    
+                <div class="data-colors background">
+                    <form action="" class="form">
+                        <h5>Chat's background color</h5>
+                        <div class="inputs-color">
+                            <label for="red">R</label>
+                            <input type="range" name="red" id="red-chat" min="0" max="255">                    
+                        </div>
+                        <div class="inputs-color">
+                            <label for="green">G</label>
+                            <input type="range" name="green" id="green-chat" min="0" max="255"> 
+                        </div>
+                        <div class="inputs-color">
+                            <label for="blue">B</label>
+                            <input type="range" name="blue" id="blue-chat" min="0" max="255">
+                        </div>
+                        <div class="inputs-color">
+                            <label for="opacity">Opacity</label>
+                            <input type="range" name="opacity" id="opacity-chat" min="0" max="10">
+                        </div>
+                    </form>      
+                </div>    
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <!-- Katya -->
+    <div class="container-profile none-text">
+        <form action="" class="profile">
+            <div class="profile-container-left">
+
+                <div class="profile-photo">
+                    <div class="photo-container">
+                        <div class="photo"></div>
+                        <div class="chose none-text">
+                            <div class="bear"></div>
+                            <div class="bmw"></div>
+                            <div class="cat"></div>
+                            <div class="polar-bear"></div>
+                        </div>
+                    </div>
+                    <div class="is-active">
+                        <h5 class="online-text none-text">online</h5>
+                        <h5 class="offline-text none-text">offline</h5>
+                        <div class="offline none-text"></div>
+                    </div>
+                </div>
+
+                <div class="profile-info">
+                </div>
+
+            </div>
+        </form>
+    </div>
+
+</div>
+
+    <script src="script-ab.js"></script>
+    <script src="scriptKat.js"></script>
+    <script src="scriptAnt.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

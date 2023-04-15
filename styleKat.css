@@ -1,0 +1,163 @@
+.profile {
+    width: 30%;
+    margin: auto;
+    border-radius: 3%;
+    padding: 10px;
+    box-shadow: 1px 4px rgba(68, 61, 65, 0.2), -1px -4px rgba(68, 61, 65, 0.2);
+    background-color: #fff;
+    margin-top: 13%;
+    z-index: 999;
+}
+
+.profile-container-left {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* align-items: center; */
+    /* position: relative; */
+}
+
+.line {
+    width: 95%;
+    border: 1px solid lightgrey;
+    margin: auto;
+}
+
+.try-btn {
+    width: 95%;
+    margin: auto;
+    border: 0;
+    border-radius: 10%;
+    height: 30px;
+}
+
+.online {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    border: 0;
+    background-color: rgb(49, 192, 49);
+}
+
+.offline {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    border: 0;
+    background-color: rgb(202, 7, 7);
+}
+
+.is-active, .email, .id {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.is-active {
+    width: 60px;
+    height: 17px;
+    justify-content: center;
+}
+
+.profile-photo {
+    /* width: 60px;
+    height: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.profile-info {
+    width: 100%;
+}
+
+.photo {
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    /* margin: auto; */
+    border-radius: 10%;
+    /* background-image: url("https://i.pinimg.com/originals/8a/de/fe/8adefe5af862b4f9cec286c6ee4722cb.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.chose {
+    display: flex;
+    gap: 10px;
+}
+
+.photo-container {
+    display: flex;
+    gap: 15px;
+}
+
+.bear {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10%;
+    background-image: url("https://drasler.ru/wp-content/uploads/2019/05/%D0%9A%D1%80%D1%83%D1%82%D1%8B%D0%B5-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%BD%D0%B0-%D0%B0%D0%B2%D0%B0%D1%82%D0%B0%D1%80%D0%BA%D1%83-%D1%8F-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-024.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(94, 28, 28);
+}
+
+.bmw {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10%;
+    background-image: url("https://avatarzo.ru/wp-content/uploads/sportivnyj-bmw.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(94, 28, 28);
+}
+
+.cat {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10%;
+    background-image: url("https://omoro.ru/wp-content/uploads/2018/05/prikilnie-kartinki-na-avatarky-dlia-devyshek-48.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(94, 28, 28);
+}
+
+.polar-bear {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 10%;
+    background-image: url("https://i.pinimg.com/originals/8a/de/fe/8adefe5af862b4f9cec286c6ee4722cb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(94, 28, 28);
+}
+
+
+.active-text {
+    display: block;
+}
+            
+.container-profile {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0303037e;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.none-text {
+    display: none;
+}
